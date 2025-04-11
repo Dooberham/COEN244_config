@@ -5,9 +5,9 @@
 #include "DataStorage.h"
 
 DataStorage::DataStorage() {
-    iPtr = new int;
-    fPtr = new float;
-    cPtr = new char;
+    iPtr = nullptr;
+    fPtr = nullptr;
+    cPtr = nullptr;
 }
 
 DataStorage::~DataStorage() {

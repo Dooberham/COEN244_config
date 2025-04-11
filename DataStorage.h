@@ -7,16 +7,16 @@
 
 
 class DataStorage {
-private:
-    int *iPtr;
-    float *fPtr;
-    char *cPtr;
+
 
 public:
     DataStorage();
     ~DataStorage();
 
-
+    int *iPtr;
+    float *fPtr;
+    char *cPtr;
+    int dSize;
 };
 
 
